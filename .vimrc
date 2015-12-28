@@ -60,6 +60,13 @@ set incsearch
 set backupdir=~/.vim/tmp//
 set directory=~/.vim/tmp//
 
+" restore my cursor pos when loading file
+" from ev's vimrc
+autocmd BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
+
 "" maps
 
 " space to search, ctrl-space to reverse search

@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/srv/nodeapps/windowsill/lib'
-let g:netrw_dirhist_2='/srv/http/tom.shea.at/7drl'
-let g:netrw_dirhist_3='/srv/nodeapps/desktopical'
